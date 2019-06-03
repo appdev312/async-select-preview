@@ -1,28 +1,19 @@
-.App {
-  text-align: center;
+.app {
+  max-width: 500px;
+  margin: 10px auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app section {
+  margin-bottom: 100px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+/* async-select test */
+#async-select-wrapper .async-item {
+  cursor: pointer;
+  padding: 10px 10px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#async-select-wrapper .async-item:hover {
+  background-color: #eeeeee;
 }
